@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inny tytul</title>
+</head>
+<body>
+Cos innego ale dziala !!!<br>
+<div th:text="'Imie: ' + ${imie}"></div>
+<div th:each="name : ${imiona}" th:text="${name}"></div>
+</body>
+</html>
